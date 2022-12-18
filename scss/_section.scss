@@ -1,0 +1,430 @@
+section {
+    width: 100%;
+    background: #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+position: relative;
+}
+
+// .section-header{
+        
+// }
+
+.section__box {
+    display: flex;
+    padding-top: 109px;
+    // padding-bottom: 173px;
+    align-items: center;
+    // flex-wrap: wrap;
+}
+
+.nav-text {
+    max-width: 840px;
+    padding-right: 74px;
+    z-index: 2;
+}
+
+.section__heading {
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 52px;
+    line-height: 65px;
+
+}
+
+.section__paragrph {
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 40px 0;
+    line-height: 24px;
+    color: #6B6B6C;
+}
+
+.section__link {
+    text-decoration: none;
+    border-bottom: 3px solid #FFCE50;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363738;
+}
+
+
+.nav {
+    width: 600px;
+    height: 787px;
+    top: 0;
+    right: 0;
+    background: #0B7572;
+    position: absolute;
+    z-index: 1;
+}
+
+.section__image {
+    max-width: 635px;
+    height: 505px;
+    top: 109px;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.section__manufacturer {
+    z-index: 2;
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 67px;
+    background: #D7D7DD;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.section__manufacturer-child {
+    max-width: 413.33px;
+    background: #fff;
+    position: relative;
+    padding: 40px 105px 0 80px;
+    list-style: none;
+    z-index: 2;
+}
+
+.section__manufacturer-child:last-child {
+    border-left: 1px solid #D7D7DD;
+    border-radius: 0 20px 20px 0;
+}
+
+.section__manufacturer-child:first-child {
+    border-right: 1px solid #D7D7DD;
+    border-radius: 20px 0 0 20px;
+}
+
+.section__manufacturer-thumb {
+    margin-bottom: 24px;
+}
+
+.section__manufacturer-heading {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+
+.section__manufacturer-paragrph {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 56px;
+}
+
+.section__affairs {
+    max-width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.affairs {
+    width: 687px;
+}
+
+.affairs__heading {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 32px;
+
+}
+
+.affairs__paragrph1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.affairs__paragrph {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+// .works{
+//     gap: 16px;
+// }
+
+.section-works {
+    max-width: 687px;
+    display: flex;
+    background-color: #fff;
+    padding: 40px 125px 48px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+
+
+.section__works-child {
+    margin-left: 32px;
+    
+}
+
+.section__works-heading {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.section__Voted {
+    // width: 281px; 
+    margin: 262px 0 389px 140px;
+    padding-bottom: 39px;
+    border-bottom: 3px solid #FFCE50;
+}
+
+.section__Voted-paragrph {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.section__Voted-heading {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+}
+
+.section__Voted-span{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6b6b6c;
+}
+
+
+@media only screen and (max-width:768px){
+    .section-header{
+   max-width: 768px;
+    position: relative;  
+    }
+    .section__box {
+        display: block;
+        padding-top: 109px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav-text {
+        max-width: 523px;
+        z-index: 2;
+    }
+    
+    .section__heading {
+        font-weight: 600;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 40px;
+        line-height: 65px;
+    }
+    
+    .section__paragrph {
+        font-weight: 400;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        margin: 40px 0;
+        line-height: 24px;
+        color: #6B6B6C;
+    }
+    
+    .section__link {
+        text-decoration: none;
+        border-bottom: 3px solid #FFCE50;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #363738;
+        margin: 61px 0 0 0;
+    }
+    .nav {
+        width: 177px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: #0B7572;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .section__image {
+        border-radius: 20px;
+        max-width: 100%;
+        margin-top: 56px;
+        position: relative;
+         margin-bottom: 67px;
+         z-index: 2;
+         min-height: 250px;
+    }
+    
+    .section__manufacturer {
+        z-index: 2;
+        max-width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+       
+        background: #D7D7DD;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+    
+    .section__manufacturer-child{
+        max-width: 100%;
+        background: #fff;
+        display: flex;
+        border-radius: 20px;
+        padding: 32px 0 40px 32px;
+    }
+    .section__manufacturer-child:last-child {
+        border-left: 1px solid #D7D7DD;
+        border-radius: 20px;
+    }
+    
+    .section__manufacturer-child:first-child {
+        border-right: 1px solid #D7D7DD;
+        border-radius: 20px;
+    }
+    
+    
+    .section__manufacturer-thumb {
+        width: 92px;
+        height: 92px;
+        align-items: center;
+        margin-right: 32px;
+    }
+    
+
+    .section__affairs {
+        max-width: 100%;
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .section__manufacturer-heading {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+    
+    .section__manufacturer-paragrph {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 56px;
+    }
+    
+
+    .affairs {
+        max-width: 100%;
+    }
+    
+    .affairs__heading {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    
+    }
+    
+    .affairs__paragrph1 {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .affairs__paragrph {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    // .works{
+    //     gap: 16px;
+    // }
+    
+    .section-works {
+        max-width: 100%;
+        display: flex;
+        background-color: #fff;
+        padding: 40px 125px 48px 40px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        margin-bottom: 16px;
+    }
+    
+        
+    
+    .section__works-child {
+        margin-left: 32px;
+        
+    }
+    
+    .section__works-heading {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+    
+    .section__Voted {
+        display: none;
+    }
+    
+    .section__Voted-paragrph {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    
+    .section__Voted-heading {
+        display: inline;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 81px;
+    }
+    
+    .section__Voted-span{
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6b6b6c;
+
+} 
+
+}
